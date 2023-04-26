@@ -24,3 +24,17 @@ the following font's should be divided by the types of text:
 	even more readable and good as standard font
 - VT323
 	not so readable but pretty for titles or small extras
+
+pages:
+	home - done
+	about - done
+	ram6
+	(a) history of mountains
+	pirko
+	bok dida
+	three women named svetlana
+	more experiments
+		two people shaking hands
+		brontophone
+		zadar sea organ
+		spitsmuis

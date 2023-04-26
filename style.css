@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Instrument+Serif:ital@0;1&family=VT323&display=swap');
 
 * {
     margin: 0;
@@ -9,21 +9,46 @@
 
 body {
     font-family: 'Chivo Mono', monospace;
+    background-color:white;
+    width:100vw;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 p {
-    color: blue;
+    color: black;
+}
+
+mark {
+    background-color: blue;
+    color: white;
 }
 
 /* TRANSITION */
 
 a, .btn {
-    transition: all 300ms ease;
+    /* transition: all 100ms ease; */
 }
+
+/* FOOTER */
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 55vw;
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    padding-top: 0.5rem;
+    background-image: url("./assets/pompebled.gif");
+    background-position-y:center;
+    background-size:cover;
+  }
 
 /* DESKTOP NAV */
 
@@ -33,44 +58,57 @@ nav,
 }
 
 nav {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
     justify-content: space-around;
     align-content: center;
-    height: 10vh;
+    height: 3vh;
+    padding: 2rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .nav-links {
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
     font-size: 1.5rem;
 }
 
+.nav-links:hover {
+    color:blue;
+}
+
 a {
     color: black;
-    text-decoration: none;
-    text-decoration-color: aliceblue;
+    text-decoration:none;
 }
 
 a:hover {
-    color: blue;
     text-decoration: underline;
-    text-underline-offset: 0.3rem;
+    text-decoration-style: none;
+    /* text-underline-offset: 0.5rem; */
 }
 
 .logo {
+    color: black;
     font-size: 1.5rem;
+    font-style: normal;
+    height: 10vh;
 }
 
 .logo:hover {
-    cursor: default;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
 }
 
-/* HAMBURGER MENU */
+/* POP-UP MENU */
 
-#hamburger-nav {
+#popup-nav {
     display: none;
 }
 
-.hamburger-menu {
+.popup-menu {
     position: relative;
     display: inline-block;
 }
@@ -102,4 +140,451 @@ a:hover {
 
 .menu-links open {
     max-height: 300px;
+}
+
+/* DROPDOWN MENU */
+
+.dropbtn {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    justify-content: space-around;
+    align-content: center;
+    color: black;
+    font-family: ;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px blue;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: blue;
+    color:white;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: blue;
+    text-decoration: underline;
+  }
+
+/*  SECTION */
+
+section {
+    padding-top: 1vh;
+    height: 99vh;
+    margin: 0rem;
+    box-sizing: border-box;
+    min-height:auto
+}
+
+.section-container {
+    display:flex;
+}
+
+/* PROFILE */
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    height:auto;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.section__pic-container {
+    display:flex;
+    flex-shrink:initial;
+    height: 350px;
+    width: 200px;
+    position:static;
+    object-position: center;
+}
+
+.section__text {
+    display: flex;
+    height: auto;
+    width: 370px;
+    text-align: justify;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0;
+    border-style: dashed;
+    border-width: thick;
+}
+
+/* PROJECTS */
+
+.ram6-container {
+    display:flex;
+    width: 350px;
+    height: 176px;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.ram6-container:hover {
+    border-color: white;
+}
+
+.ram6_link {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    height: 176px;
+    width: 350px;
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    opacity: 0;
+}
+
+.ram6_link:hover {
+    opacity: 1;
+    color: white;
+}
+
+.ahistory-container {
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 176px;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.ahistory-container:hover {
+    border-color: white;
+}
+
+.ahistory_link {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    height: 176px;
+    width: 350px;
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    opacity: 0;
+}
+
+.ahistory_link:hover {
+    opacity: 1;
+    color: white;
+}
+
+.pirko-container {
+    display:flex;
+    height: 350px;
+    width: 350px;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.pirko-container:hover {
+    border-color: white;
+}
+
+.pirko_link {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    height: 320px;
+    width: 335px;
+    padding-left: 15px;
+    position: absolute;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 11rem;
+    color: white;
+    opacity: 0;
+}
+
+.pirko_link:hover {
+    opacity: 1;
+    color: white;
+}
+
+.bokdida-container {
+    display:flex;
+    height: 350px;
+    width: 350px;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.bokdida-container:hover {
+    border-color: white;
+}
+
+.bokdida_link {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    height: 350px;
+    width: 280px;
+    padding-left: 70px;
+    position: absolute;
+    margin-left: 0rem;
+    text-align: center;
+    font-size: 8rem;
+    color: white;
+    opacity: 0;
+}
+
+.bokdida_link:hover {
+    opacity: 1;
+    color: white;
+}
+
+.svetlana-container {
+    display:flex;
+    height: 350px;
+    width: 350px;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.svetlana-container:hover {
+    border-color: white;
+}
+
+.svetlana_link {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    height: 330px;
+    width: 350px;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 4.5rem;
+    color: white;
+    opacity: 0;
+}
+
+.svetlana_link:hover {
+    opacity: 1;
+    color: white;
+}
+
+.andmore-container {
+    display: flex;
+    height:350px;
+    width: 237px;
+    border-style: dashed;
+    border-width: thick;
+}
+
+.andmore-container:hover {
+    border-color: white;
+}
+
+.andmore {
+    font-family: 'Instrument Serif', serif;
+    display: flex;
+    position: absolute;
+    padding-top:100px;
+    padding-left: 10px;
+    height:137px;
+    width: 227px;
+    font-size: 5.5rem;
+    opacity: 0;
+}
+
+.andmore:hover {
+    opacity: 1;
+    color: red;
+    font-style: italic;
+    text-decoration-style: dashed;
+}
+
+/* ABOUT */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0rem;
+    height: max-content;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.text1 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 0.8rem;
+    background-image: url("./assets/achtergrond.jpg");
+}
+
+.text2 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 0.8rem;
+    background-image: url("./assets/achtergrond.jpg");
+}
+
+.portret {
+    display:flex;
+    height: 200px;
+    position:static;
+    object-position: center;
+    margin: 1rem;
+}
+
+/* EXTRA INFO POPUP */
+
+.more-info div {
+    display: none;
+}
+
+.more-info div:target {
+    display: flex;
+}
+
+.info-link:hover {
+    color:black;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 0.1rem;
+}
+
+#moreinfo {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-size: 0.75rem;
+    position: absolute;
+    border-style: dashed;
+    border-width: medium;
+    width:30vw;
+}
+
+/* RAM6 */
+
+.rtext1 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 1rem;
+    background-image: url(./assets/ramses4.png);
+    color: white;
+}
+
+.rtext2 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 0.8rem;
+    background-image: url(./assets/ramses4.png);
+    color: white;
+}
+
+/* HISTORY OF MOUNTAINS */
+
+.ahtext1 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 1rem;
+}
+
+.ahtext2 {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:white;
+    font-size: 0.8rem;
+}
+
+/* SVETLANA */
+
+.sportret {
+    display:flex;
+    height: 370px;
+    position:static;
+    object-position: center;
+    margin: 1rem;
+}
+
+/* MORE EXPERIMENTS */
+
+.mtext {
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: dashed;
+    border-width: thick;
+    border-color:black;
+    font-size: 0.8rem;
 }

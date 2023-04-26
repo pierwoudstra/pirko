@@ -3,31 +3,100 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>pier woudstra</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo.png">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mediaqueries.css">
     </head>
     <body>
         <nav id="desktop-nav">
-            <div class="logo">pier woudstra</div>
+            <div class="logo"><a href="./index.html"><img src="./assets/logo2.png" style="float:left;width:30px;height:30px;">&nbsp;&nbsp;pier woudstra</a></div>
             <div>
                 <ul class="nav-links">
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#about">about</a></li>
+                    <li><a href="./index.html">home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">projects</button>
+                            <div class="dropdown-content">
+                                <a href="./ram6.html">ram6</a>
+                                <a href="./ahistory.html">(a) history of mountains</a>
+                                <a href="./pirko.html">pirko</a>
+                                <a href="./bokdida.html">bok dida</a>
+                                <a href="./svetlana.html">three women named svetlana</a>
+                                <a href="./more-experiments.html">more experiments</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">about</a></li>
                 </ul>
             </div>
         </nav>
-        <nav id="hamburger-nav">
+        <nav id="popup-nav">
             <div>
                 <ul class="nav-links">
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#about">about</a></li>
+                    <li><a href="./index.html">home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">projects</button>
+                            <div class="dropdown-content">
+                                <a href="./ram6.html">ram6</a>
+                                <a href="./ahistory.html">(a) history of mountains</a>
+                                <a href="./pirko.html">pirko</a>
+                                <a href="./bokdida.html">bok dida</a>
+                                <a href="./svetlana.html">three women named svetlana</a>
+                                <a href="./more-experiments.html">more experiments</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="./about.html">about</a></li>
                 </ul>
             </div>
         </nav>
-        <script src="script.js"></script>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/portret3.png" alt="pier woudstra">
+            </div>
+            <div class="section__text">
+                <h1 class="welcome"><u>pier woudstra</u> is a <em>composer, producer & <a href="https://en.wikipedia.org/wiki/Music_technology">music technologist</a></em> based in <a href="https://en.wikipedia.org/wiki/Utrecht">utrecht</a>
+                    <a href="https://open.spotify.com/artist/6EOwzmEY3UQyFEoCyI6gR8?si=21ayKE23ROqVp5cYKLXwKQ"><img src="./assets/spotify.png" width="28" height="28" alt="spotify"></a>
+                    <a href="https://instagram.com/pirkooo"><img src="./assets/insta.png" width="28" height="28" alt="instagram"></a>
+                </h1>
+            </div>
+            <div class="ram6-container">
+                <a class="ram6_link" href="./ram6.html">ram6 live electronics</a>
+                <img src="./assets/ramses4.png" alt="ram6 live electronics">
+            </div>
+            <div class="ahistory-container">
+                <a class="ahistory_link" href="./ahistory.html">(a) history of mountains</a>
+                <img src="./assets/ahistory2.png" alt="ahistory">
+            </div>
+            <div class="pirko-container">
+                <a class="pirko_link" href="./pirko.html">pirko</a>
+                <img src="./assets/pirko2.png" alt="pirko">
+            </div>
+            <div class="bokdida-container">
+                <a class="bokdida_link" href="./bokdida.html">bok<br>dida</a>
+                <img src="./assets/bokdida2.png" alt="bok dida">
+            </div>
+            <div class="svetlana-container">
+                <a class="svetlana_link" href="./svetlana.html">three women named svetlana</a>
+                <img src="./assets/svetlana1.jpeg" alt="svetlana">
+            </div>
+            <div class="andmore-container">
+                <a class="andmore" href="./more-experiments.html">& more</a>
+                <img src="./assets/salim.jpeg" alt="salim">
+            </div>
+            
+        </section>
+        <footer>
+            <div class="footer">
+                <a href="mailto:pier.johannes@gmail.com"><img src="./assets/email.png" width="30" height="30" alt="email"></a>
+                <a href="https://instagram.com/pirkooo"><img src="./assets/insta.png" width="30" height="30" alt="instagram"></a>
+                <a href="https://github.com/pierwoudstra"><img src="./assets/github.png" width="30" height="30" alt="github"></a>
+                <a href="https://open.spotify.com/artist/6EOwzmEY3UQyFEoCyI6gR8?si=21ayKE23ROqVp5cYKLXwKQ"><img src="./assets/spotify.png" width="30" height="30" alt="spotify"></a>
+                <!-- <a href="https://pirko.bandcamp.com/music"><img src="./assets/bandcamp.png" width="30px" height="30px"></a> -->
+            </div>
+        </footer>
     </body>
 </html>
