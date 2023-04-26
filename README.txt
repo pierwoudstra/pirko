@@ -1,4 +1,4 @@
-reshape of the www.pirko.nl website,
+reshape of the www.pirko.nl website.
 
 including some new design principles:
 - 'and' becomes '&'
