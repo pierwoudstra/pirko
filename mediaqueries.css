@@ -1,4 +1,4 @@
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
     #desktop-nav {
         display: none;
     }
@@ -8,5 +8,13 @@
     body {
         /* width:90vw; */
         size: 80%;
+    }
+    #about {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #profile {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
