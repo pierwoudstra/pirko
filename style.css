@@ -8,6 +8,7 @@
 }
 
 body {
+    cursor: url('assets/cursor2.png'),auto;
     font-family: 'Chivo Mono', monospace;
     background-color:white;
     width:100vw;
@@ -79,11 +80,13 @@ nav {
 }
 
 a {
+    cursor: url('assets/cursor2.png'),auto;
     color: black;
     text-decoration:none;
 }
 
 a:hover {
+    cursor: url('assets/cursor2.png'),auto;
     text-decoration: underline;
     text-decoration-style: none;
     /* text-underline-offset: 0.5rem; */
