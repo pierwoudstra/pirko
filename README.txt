@@ -1,5 +1,10 @@
 reshape of the www.pirko.nl website.
 
+to do:
+- convert png's to webp or jpeg
+- use grid and not flex for all the project pages
+- make about page interactive
+
 including some new design principles:
 - 'and' becomes '&'
 - all social media/ work links are on the first page
@@ -22,12 +27,10 @@ the following font's should be divided by the types of text:
 	very readable font, good for subtitles
 - chivo mono (medium 500)
 	even more readable and good as standard font
-- VT323
-	not so readable but pretty for titles or small extras
 
 pages:
-	home - done
-	about - done
+	home
+	about
 	ram6
 	(a) history of mountains
 	pirko
