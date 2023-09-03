@@ -1,0 +1,259 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Instrument+Serif:ital@0;1&family=VT323&display=swap');
+
+* {
+    cursor: url('assets/cursor.png'),auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    cursor: url('assets/cursor.png'),auto;
+    font-family: 'Chivo Mono', monospace;
+    background-color:white;
+    width:100vw;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    text-align: justify;
+}
+
+mark {
+    background-color: blue;
+    color: white;
+}
+
+/* TRANSITION */
+
+a, .btn {
+    cursor: url('assets/cursor.png'),auto;
+    /* transition: all 100ms ease; */
+}
+
+/* FOOTER */
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 55vw;
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    padding-top: 0.5rem;
+    background-image: url("./assets/pompebled.gif");
+    background-position-y:center;
+    background-size:cover;
+  }
+
+/* DESKTOP NAV */
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    justify-content: space-around;
+    align-content: center;
+    height: 3vh;
+    padding: 2rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.nav-links {
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.nav-links:hover {
+    color:blue;
+}
+
+a {
+    cursor: url('assets/cursor.png'),auto;
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+    cursor: url('assets/cursor.png'),auto;
+    text-decoration: underline;
+    text-decoration-style: none;
+    /* text-underline-offset: 0.5rem; */
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-style: normal;
+    height: 10vh;
+}
+
+.logo:hover {
+    cursor: url('assets/cursor.png'),auto;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* POP-UP MENU */
+
+#popup-nav {
+    display: none;
+}
+
+.popup-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links open {
+    max-height: 300px;
+}
+
+/* DROPDOWN MENU */
+
+.dropbtn {
+    cursor: url('assets/cursor.png'),auto;
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    justify-content: space-around;
+    align-content: center;
+    color: black;
+    font-family: ;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .dropdown {
+    cursor: url('assets/cursor.png'),auto;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    cursor: url('assets/cursor.png'),auto;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px blue;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    cursor: url('assets/cursor.png'),auto;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    cursor: url('assets/cursor.png'),auto;
+    background-color: blue;
+    color:white;
+}
+  
+  .dropdown:hover .dropdown-content {
+    cursor: url('assets/cursor.png'),auto;
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    cursor: url('assets/cursor.png'),auto;
+    color: blue;
+    text-decoration: underline;
+  }
+
+/* section */
+
+#gridtemp {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    padding-bottom: 3rem;
+
+    margin: 0rem;
+
+    grid-template-columns: 27% 46% 27%;
+    grid-gap: 20px;
+}
+
+#gridtemp iframe {
+    min-width: 0%; 
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+#gridtemp div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+  
+#gridtemp img {
+    min-width: 0%; 
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 950px) {
+    #gridtemp {
+        display: grid;
+        flex-wrap: wrap;
+        padding: 20px;
+    
+        margin: 0rem;
+    
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}

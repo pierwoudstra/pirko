@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Instrument+Serif:ital@0;1&family=VT323&display=swap');
 
 * {
+    cursor: url('assets/cursor.png'),auto;
     margin: 0;
     padding: 0;
 }
@@ -30,6 +31,7 @@ mark {
 /* TRANSITION */
 
 a, .btn {
+    cursor: url('assets/cursor.png'),auto;
     /* transition: all 100ms ease; */
 }
 
@@ -100,6 +102,7 @@ a:hover {
 }
 
 .logo:hover {
+    cursor: url('assets/cursor.png'),auto;
     color: black;
     text-decoration: none;
     font-style: italic;
@@ -148,6 +151,7 @@ a:hover {
 /* DROPDOWN MENU */
 
 .dropbtn {
+    cursor: url('assets/cursor.png'),auto;
     font-family: 'Instrument Serif', serif;
     font-size: 1.5rem;
     font-style: italic;
@@ -161,11 +165,13 @@ a:hover {
   }
   
   .dropdown {
+    cursor: url('assets/cursor.png'),auto;
     position: relative;
     display: inline-block;
   }
   
   .dropdown-content {
+    cursor: url('assets/cursor.png'),auto;
     display: none;
     position: absolute;
     background-color: white;
@@ -175,6 +181,7 @@ a:hover {
   }
   
   .dropdown-content a {
+    cursor: url('assets/cursor.png'),auto;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -182,15 +189,18 @@ a:hover {
   }
   
   .dropdown-content a:hover {
+    cursor: url('assets/cursor.png'),auto;
     background-color: blue;
     color:white;
 }
   
   .dropdown:hover .dropdown-content {
+    cursor: url('assets/cursor.png'),auto;
     display: block;
   }
   
   .dropdown:hover .dropbtn {
+    cursor: url('assets/cursor.png'),auto;
     color: blue;
     text-decoration: underline;
   }
