@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>about</title>
         <link rel="icon" type="image/x-icon" href="assets/logo.png">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="newstyle.css">
         <link rel="stylesheet" href="mediaqueries.css">
+        <script src="libraries/p5.min.js"></script>
+        <script src="libraries/p5.sound.min.js"></script>
     </head>
     <body>
         <nav id="desktop-nav">
@@ -52,31 +54,28 @@
                 </ul>
             </div>
         </nav>
-        <section id="about">
-            <div class="text1">
-                <h2>my name is pier woudstra & I am a Dutch/ Croatian musician, composer & music technologist based in Utrecht, currently studying Music & Technology at the University of the Arts in Utrecht. the common thread in my work is the blending of traditional (folk) musical ideas with contemporary (often electronic) techniques. </h2>
+        <section id="newbody">
+            <div class="column1">
+                <h3>my name is pier woudstra & I am a Dutch/ Croatian musician, composer & music technologist based in Utrecht, currently studying Music & Technology at the University of the Arts in Utrecht. the common thread in my work is the blending of traditional (folk) musical ideas with contemporary (often electronic) techniques.</h3>
             </div>
-            <div class="text2">
-                <h2>to blend these successfully I research subjects regarding existing forms of traditional music and contemporary ways to manipulate sound. combining two worlds, I am comfortable with musical notation, as well as Max MSP and Ableton Live, amongst other techniques. <br> you can contact me at <a href="mailto:pier.johannes@gmail.com">pier.johannes@gmail.com</a></h2>
+            <div class="column2">
+                <main>
+                    <script src="sketch.js"></script>
+                </main>
             </div>
-            <div class="portret">
-                <img src="./assets/portret2.jpeg" alt="portret">
+            <div class="column3">
+                <h3>to blend these successfully I research subjects regarding existing forms of traditional music and contemporary ways to manipulate sound. combining two worlds, I am comfortable with musical notation, as well as Max MSP and Ableton Live, amongst other techniques. 
+                    you can contact me at <a href="">pier.johannes@gmail.com</a></h3>
             </div>
-            <div class="more-info">
-                <a class="info-link" href="#moreinfo">+ more info</a>
-                <div id="moreinfo">
-                    <h3>
-                        my all time favorite artist is <a href="https://youtu.be/Y7EGQzn8e1k"> Pharoah Sanders</a><br>
-                        <br>
-                        supporter of <a href="https://cambuur.nl/">Cambuur Leeuwarden</a> 𐂂 & <a href="https://www.ajax.nl/">Ajax</a> ˟˟˟<br>
-                        <br>
-                        honorary member of <a href="https://klokpacksix.nl/">KlokPack6ix <img src="./assets/kp6.png" alt="kp6" height="20px" width="20px"></a><br>
-                        <br>
-                        my favorite political party is <a href="https://bij1.org/en/">BIJ1</a> <br>
-                        <br>
-                    </h3>
-                </div>
+            </section>
+        <footer>
+            <div class="footer">
+                <a href="mailto:pier.johannes@gmail.com"><img src="./assets/email.png" width="30" height="30" alt="email"></a>
+                <a href="https://instagram.com/pirkooo"><img src="./assets/insta.png" width="30" height="30" alt="instagram"></a>
+                <a href="https://github.com/pierwoudstra"><img src="./assets/github.png" width="30" height="30" alt="github"></a>
+                <a href="https://open.spotify.com/artist/6EOwzmEY3UQyFEoCyI6gR8?si=21ayKE23ROqVp5cYKLXwKQ"><img src="./assets/spotify.png" width="30" height="30" alt="spotify"></a>
+                <!-- <a href="https://pirko.bandcamp.com/music"><img src="./assets/bandcamp.png" width="30px" height="30px"></a> -->
             </div>
-        </section>
+        </footer>
     </body>
 </html>

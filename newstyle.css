@@ -23,6 +23,11 @@ p {
     color: black;
 }
 
+h3 {
+    padding: 2rem;
+    text-align: justify;
+}
+
 h2 {
     text-align: justify;
 }
@@ -162,7 +167,6 @@ a:hover {
     justify-content: space-around;
     align-content: center;
     color: black;
-    font-family: ;
     border: none;
     cursor: pointer;
     background-color: white;
@@ -245,8 +249,43 @@ a:hover {
     vertical-align: bottom;
 }
 
+/* about page */
+
+#newbody {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+  
+    /* padding: 6vmax 2vmax 2vmax; */
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items:center;
+}
+
+canvas {
+    width: 95% !important;
+    height:auto !important;
+  
+    border: 0.5rem dashed #2d2dff;
+    /* border-radius: 5vmax; */
+  }
+
 @media screen and (max-width: 950px) {
     #gridtemp {
+        display: grid;
+        flex-wrap: wrap;
+        padding: 20px;
+    
+        margin: 0rem;
+    
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    #newbody {
         display: grid;
         flex-wrap: wrap;
         padding: 20px;
