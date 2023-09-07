@@ -250,6 +250,42 @@ a:hover {
     vertical-align: bottom;
 }
 
+/* more experiments */
+
+#more-gridtemp {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 40px;
+
+    padding-bottom: 3rem;
+
+    margin: 0rem;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#more-gridtemp iframe {
+    min-width: 0%; 
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+#more-gridtemp div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+  
+#more-gridtemp img {
+    min-width: 0%; 
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
 /* about page */
 
 #newbody {
@@ -287,6 +323,17 @@ canvas {
     }
 
     #newbody {
+        display: grid;
+        flex-wrap: wrap;
+        padding: 20px;
+    
+        margin: 0rem;
+    
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    #more-gridtemp {
         display: grid;
         flex-wrap: wrap;
         padding: 20px;
