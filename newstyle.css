@@ -234,6 +234,7 @@ a:hover {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    border-radius: 1rem;
 }
 
 #gridtemp div {
@@ -270,6 +271,7 @@ a:hover {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    border-radius: 1rem;
 }
 
 #more-gridtemp div {
