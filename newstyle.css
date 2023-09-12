@@ -304,6 +304,28 @@ a:hover {
     align-items:center;
 }
 
+.next {
+    border: 0.2rem solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.next h2 {
+    text-align: center;
+}
+
+.next a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.next h2:hover{
+    color: #2d2dff;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+}
+
 canvas {
     width: 95% !important;
     height:auto !important;
