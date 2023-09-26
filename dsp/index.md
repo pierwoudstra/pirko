@@ -1,4 +1,4 @@
-# [Digital Signal Processing](dsp.md)
+# [Digital Signal Processing](index.md)
 
 *Notes taken in the DSP classes at the Utrecht University of the Arts*
 
