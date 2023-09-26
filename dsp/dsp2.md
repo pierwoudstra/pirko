@@ -52,6 +52,7 @@ and you would get 500Hz as a result. Assuming this is the root frequency, the mu
                             etc..
 
 But note the feedback coefficient which is negative. Because the feedback coefficient is negative the root frequency goes out of phase. Because of this the root frequency becomes an octave lower and only the even overtones are amplified, namely:
+
                         1 = 250 Hz
                         
                         2 = 750 Hz
