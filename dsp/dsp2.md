@@ -1,4 +1,4 @@
-# [Digital Signal Processing](dsp.md)
+# [Digital Signal Processing](index.md)
 
 ## Comb filters
 
