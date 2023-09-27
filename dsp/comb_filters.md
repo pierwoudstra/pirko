@@ -22,7 +22,7 @@ For a delay of 1 millisecond length the frequency 1000 Hz and it's multiples wil
 
 The simple formula to determine what root frequency will be amplified by a specific delay is:
 
-_frequency(kHz) = 1/delay(ms)_
+$`frequency(kHz) = 1/delay(ms)`$
 
 If there is a negative feedback coefficient this root frequency turns out of phase, when this happens the root frequency becomes an octave lower and all the odd harmonics become amplified.
 
@@ -41,7 +41,7 @@ input --+-->| 2 millisecond delay |-->--- output
 
 In this example you would initially put the delay time in the formula:
 
-_1/2ms = 0.5kHz = 500Hz_
+$`1/2ms = 0.5kHz = 500Hz`$
 
 and you would get 500Hz as a result. Assuming this is the root frequency, the multiples of this frequency would result in the harmonic overtones, namely:
 
