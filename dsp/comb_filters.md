@@ -1,5 +1,9 @@
 # [Digital Signal Processing](index.md)
 
+*Notes taken in the DSP classes at the Utrecht University of the Arts*
+
+1. [Types of systems](types_of_systems.md)
+
 ## Comb filters
 
 There are two types of comb filters:
@@ -18,7 +22,7 @@ For a delay of 1 millisecond length the frequency 1000 Hz and it's multiples wil
 
 The simple formula to determine what root frequency will be amplified by a specific delay is:
 
-$frequency(kHz) = 1/delay(ms)$
+_frequency(kHz) = 1/delay(ms)_
 
 If there is a negative feedback coefficient this root frequency turns out of phase, when this happens the root frequency becomes an octave lower and all the odd harmonics become amplified.
 
@@ -37,7 +41,7 @@ input --+-->| 2 millisecond delay |-->--- output
 
 In this example you would initially put the delay time in the formula:
 
-$1/2ms = 0.5kHz = 500Hz$
+_1/2ms = 0.5kHz = 500Hz_
 
 and you would get 500Hz as a result. Assuming this is the root frequency, the multiples of this frequency would result in the harmonic overtones, namely:
 
@@ -73,4 +77,4 @@ So a two millisecond delay becomes:
 
 _2 * 44.1 = 88.2 samples_
 
-## next -> [Difference equations](difference_equations.md)
+3. [Difference equations](difference_equations.md)
