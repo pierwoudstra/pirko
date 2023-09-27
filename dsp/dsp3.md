@@ -2,10 +2,10 @@
 
 ## Difference equations
 
-In continous time, time (t) is part of the set of real numbers (**R**).
+In continuous time, time (t) is part of the set of real numbers (**R**).
 In discrete time, time (t) is part of the set of integers (**Z**).
 
-Differential equations describe analog systems (using continous time), while **difference equations** describe digital systems (using discrete time). 
+Differential equations describe analog systems (using continuous time), while **difference equations** describe digital systems (using discrete time). 
 
 This difference equation represents a simple **FIR** system:
 

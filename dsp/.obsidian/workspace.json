@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "2528c90287b9bd1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fb7c3ba9bbc6b12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2b9947023c345c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01d4d2914c186c6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e84718188cef0a44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cf077a2ef8caa3b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa2f1132a27777af",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "57b8b1647f5a44a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d34bb1cfb092afcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0496258a26029fca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "e2b9947023c345c7",
+  "lastOpenFiles": [
+    "rational.jpeg",
+    "index.md",
+    "dsp3.md",
+    "dsp2.md",
+    "dsp1.md",
+    "dsp.md"
+  ]
+}

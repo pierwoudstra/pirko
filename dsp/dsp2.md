@@ -41,28 +41,28 @@ In this example you would initially put the delay time in the formula:
 
 and you would get 500Hz as a result. Assuming this is the root frequency, the multiples of this frequency would result in the harmonic overtones, namely:
 
-                        1 = 500 Hz
+1 = 500 Hz
 
-                        2 = 1000 Hz
+2 = 1000 Hz
 
-                        3 = 1500 Hz
+3 = 1500 Hz
 
-                        4 = 2000 Hz
+4 = 2000 Hz
 
-                            etc..
+etc..
 
 But note the feedback coefficient which is negative. Because the feedback coefficient is negative the root frequency goes out of phase. Because of this the root frequency becomes an octave lower and only the even overtones are amplified, namely:
 
-                        1 = 250 Hz
-                        
-                        2 = 750 Hz
-                        
-                        3 = 1250 Hz
-                        
-                        4 = 1750 Hz
-                        
-                            etc...
-                            
+1 = 250 Hz
+
+2 = 750 Hz
+
+3 = 1250 Hz
+
+4 = 1750 Hz
+
+etc...
+
 The more feedback is applied to a signal the sharper the comb filter gets and the better a tone is heard.
 
 In DSP time is usually measured in samples, not in milliseconds. The amount of samples in a millisecond depends on the sample rate used. The simple formula to convert milliseconds to samples is:
@@ -72,5 +72,5 @@ _milliseconds * sample rate (in kHz)_
 So a two millisecond delay becomes:
 
 _2 * 44.1 = 88.2 samples_
-                            
+
 ## next -> [Difference equations](dsp3.md)
