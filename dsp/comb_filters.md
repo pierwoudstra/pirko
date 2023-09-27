@@ -1,9 +1,5 @@
 # [Digital Signal Processing](index.md)
 
-*Notes taken in the DSP classes at the Utrecht University of the Arts*
-
-1. [Types of systems](types_of_systems.md)
-
 ## Comb filters
 
 There are two types of comb filters:
@@ -22,7 +18,7 @@ For a delay of 1 millisecond length the frequency 1000 Hz and it's multiples wil
 
 The simple formula to determine what root frequency will be amplified by a specific delay is:
 
-$`frequency(kHz) = 1/delay(ms)`$
+`frequency(kHz) = 1/delay(ms)`
 
 If there is a negative feedback coefficient this root frequency turns out of phase, when this happens the root frequency becomes an octave lower and all the odd harmonics become amplified.
 
@@ -41,10 +37,10 @@ input --+-->| 2 millisecond delay |-->--- output
 
 In this example you would initially put the delay time in the formula:
 
-$`1/2ms = 0.5kHz = 500Hz`$
+`1/2ms = 0.5kHz = 500Hz`
 
 and you would get 500Hz as a result. Assuming this is the root frequency, the multiples of this frequency would result in the harmonic overtones, namely:
-
+```
 1 = 500 Hz
 
 2 = 1000 Hz
@@ -54,9 +50,10 @@ and you would get 500Hz as a result. Assuming this is the root frequency, the mu
 4 = 2000 Hz
 
 etc..
+```
 
 But note the feedback coefficient which is negative. Because the feedback coefficient is negative the root frequency goes out of phase. Because of this the root frequency becomes an octave lower and only the even overtones are amplified, namely:
-
+```
 1 = 250 Hz
 
 2 = 750 Hz
@@ -66,15 +63,16 @@ But note the feedback coefficient which is negative. Because the feedback coeffi
 4 = 1750 Hz
 
 etc...
+```
 
 The more feedback is applied to a signal the sharper the comb filter gets and the better a tone is heard.
 
 In DSP time is usually measured in samples, not in milliseconds. The amount of samples in a millisecond depends on the sample rate used. The simple formula to convert milliseconds to samples is:
 
-_milliseconds * sample rate (in kHz)__
+`milliseconds * sample rate (in kHz)`
 
 So a two millisecond delay becomes:
 
-_2 * 44.1 = 88.2 samples_
+`2 * 44.1 = 88.2 samples`
 
-3. [Difference equations](difference_equations.md)
+### next => [Difference equations](difference_equations.md)

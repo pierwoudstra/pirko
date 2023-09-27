@@ -1,7 +1,5 @@
 # [Digital Signal Processing](index.md)
 
-*Notes taken in the DSP classes at the Utrecht University of the Arts*
-
 ## Types of systems
 
 Digital systems make use of "discrete time", while analog systems make use of "continuous time".
@@ -18,14 +16,11 @@ More on the subject [here](https://academic-accelerator.com/encyclopedia/discret
 
 A system either has a:
 
-    finite impulse response (FIR), or an
-
-    infinite impulse response (IIR).
+	finite impulse response (FIR), or an
+	infinite impulse response (IIR).
 
 A **finite impulse response** occurs in a system that only processes information in a forward direction, whereas a system with an **infinite impulse response** requires a feedback loop to operate.
 
 In theory, an IIR system will pass a signal indefinitely, gradually diminishing in amplitude. However, in digital systems, this infinitely small value is ultimately rounded down to zero due to the digital limitations in precision, a rounding error essentially.
 
-2. [Comb filters](comb_filters.md)
-
-3. [Difference equations](difference_equations.md)
+### next => [Comb filters](comb_filters.md)
