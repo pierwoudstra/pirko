@@ -9,7 +9,9 @@ Differential equations describe analog systems (using continuous time), while **
 
 This difference equation represents a simple **FIR** system:
 
+
 `y[n] = x[n] + x[n-8]`
+
 
 `n` represents the index in this example. The index can be any positive or negative integer.
 
@@ -19,7 +21,9 @@ This difference equation represents a simple **FIR** system:
 
 `x[n-8]` represents a delay of eight samples. It is the input but at index [-8].
 
+
 > Square brackets are used when representing index numbers in discrete time.
+
 
 To describe an **IIR** system with a difference equation we have to use the output (y[n]) at both sides of the equation. As an example we can write our feedback system from the last chapter like this:
 
