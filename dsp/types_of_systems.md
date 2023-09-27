@@ -24,4 +24,4 @@ A **finite impulse response** occurs in a system that only processes information
 
 In theory, an IIR system will pass a signal indefinitely, gradually diminishing in amplitude. However, in digital systems, this infinitely small value is ultimately rounded down to zero due to the digital limitations in precision, a rounding error essentially.
 
-## next -> [Comb filters](dsp2.md)
+## next -> [Comb filters](comb_filters.md)

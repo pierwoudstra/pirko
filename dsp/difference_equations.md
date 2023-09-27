@@ -9,7 +9,7 @@ Differential equations describe analog systems (using continuous time), while **
 
 This difference equation represents a simple **FIR** system:
 
-_y[n] = x[n] + x[n-8]_
+$y[n] = x[n] + x[n-8]$
 
 *n* represents the index in this example. The index can be any positive or negative integer.
 *y[n]* represents the output at index [0] (so right now).
@@ -20,6 +20,7 @@ x[n-8] represents a delay of eight samples. It is the input but at index [-8].
 
 To describe an **IIR** system with a difference equation we have to use the output (y[n]) at both sides of the equation. As an example we can write our feedback system from the last chapter like this:
 
-_y[n] = x[n-2] + (- 0.99*y[n])_
+$y[n] = x[n-2] + (- 0.99*y[n])$
 
 Using this notation it is possible to calculate the output in samples of a specific system.
+

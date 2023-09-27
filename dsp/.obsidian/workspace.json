@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "difference_equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "difference_equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,17 +93,16 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "publish:Publish changes...": false
+      "graph:Open graph view": false
     }
   },
   "active": "e2b9947023c345c7",
   "lastOpenFiles": [
-    "rational.jpeg",
+    "comb_filters.md",
+    "difference_equations.md",
     "index.md",
-    "dsp3.md",
-    "dsp2.md",
-    "dsp1.md",
+    "rational.jpeg",
+    "types_of_systems.md",
     "dsp.md"
   ]
 }

@@ -18,7 +18,7 @@ For a delay of 1 millisecond length the frequency 1000 Hz and it's multiples wil
 
 The simple formula to determine what root frequency will be amplified by a specific delay is:
 
-*frequency(kHz) = 1/delay(ms)*
+$frequency(kHz) = 1/delay(ms)$
 
 If there is a negative feedback coefficient this root frequency turns out of phase, when this happens the root frequency becomes an octave lower and all the odd harmonics become amplified.
 
@@ -37,7 +37,7 @@ input --+-->| 2 millisecond delay |-->--- output
 
 In this example you would initially put the delay time in the formula:
 
-*1/2ms = 0.5kHz = 500Hz*
+$1/2ms = 0.5kHz = 500Hz$
 
 and you would get 500Hz as a result. Assuming this is the root frequency, the multiples of this frequency would result in the harmonic overtones, namely:
 
@@ -67,10 +67,10 @@ The more feedback is applied to a signal the sharper the comb filter gets and th
 
 In DSP time is usually measured in samples, not in milliseconds. The amount of samples in a millisecond depends on the sample rate used. The simple formula to convert milliseconds to samples is:
 
-_milliseconds * sample rate (in kHz)_
+_milliseconds * sample rate (in kHz)__
 
 So a two millisecond delay becomes:
 
 _2 * 44.1 = 88.2 samples_
 
-## next -> [Difference equations](dsp3.md)
+## next -> [Difference equations](difference_equations.md)
