@@ -32,10 +32,10 @@
 </head>
 <body>
 <h1 id="systeem-eigenschappen">Systeem-eigenschappen</h1>
-<p>Zes eigenschappen in de signaalbewerking kunnen worden geanaliseerd.
+<p>Zes eigenschappen in de signaalbewerking kunnen worden geanalyseerd.
 Sommige lijken op elkaar dus is het ’t handigst om apart deze
 eigenschappen bij langs te gaan tijdens het testen van een systeem. De
-systemen zelf worden hier met behulp van differentie-vergelijkingen
+systemen zelf worden hier met behulp van differentievergelijkingen
 omschreven.</p>
 <h2 id="geheugen">Geheugen</h2>
 <p>Een systeem met geheugen is te herkennen aan de <span
@@ -77,21 +77,21 @@ te beoordelen.</p>
 <h2 id="bibo-stabiliteit">BIBO-Stabiliteit</h2>
 <p>Een systeem wordt beschouwd als BIBO-stabiel als het reageert op een
 begrensde ingang (bounded input) met een begrensde uitgang (bounded
-output). Als het ingangssignaal begrensd is, dus ergens tussen <span
+output). Als het ingangssignaal begrensd is, dus tussen <span
 class="math inline">\(-\infty\)</span> en <span
 class="math inline">\(\infty\)</span>, zal het systeem niet onbegrensd
 versterken en zal het uitgangssignaal niet oneindig groot worden.</p>
 <p>Een voorbeeld van een BIBO-<strong>in</strong>stabiel systeem: <span
 class="math display">\[y[n] = x[n] + 2y[n-1] \]</span> In dit geval zal
-de feedback blijven vermenigvuldigen, dus indien het coefficiënt van
+de feedback blijven vermenigvuldigen, dus indien het coëfficiënt van
 <span class="math inline">\(y[n-1] &lt; 1\)</span> zullen we een
 BIBO-stabiel systeem hebben: <span class="math display">\[y[n] = x[n] +
 0.5y[n-1]\]</span></p>
-<p>Hierbij zou het coefficiënt van <span
+<p>Hierbij zou het coëfficiënt van <span
 class="math inline">\(x[n]\)</span> zo groot kunnen zijn als we willen
-en nogsteeds zouden we een BIBO-stabiel systeem hebben, de uitgang
+en nog steeds zouden we een BIBO-stabiel systeem hebben, de uitgang
 blijft begrensd een heeft geen kans om zichzelf te blijven
-vermeningvuldigen.</p>
+vermenigvuldigen.</p>
 <h2 id="tijd-invariantie">Tijd-invariantie</h2>
 <p>Een systeem is tijd-invariant als de tijd (vaak genoteerd met <span
 class="math inline">\(n\)</span>) niet direct het systeem beïnvloed.
@@ -101,16 +101,16 @@ afhankelijk zijn van de tijd.</p>
 <p><span class="math display">\[y[n] = nx[n]\]</span></p>
 <p>Hierbij zal de output <span class="math inline">\(y[n]\)</span>
 volledig afhangen van de waarde van <span
-class="math inline">\(n\)</span>, ofterwel de tijd.</p>
+class="math inline">\(n\)</span>, oftewel de tijd.</p>
 <p><span class="math display">\[y[n] = \sin(n)x[n]\]</span></p>
-<p>Voor de differentie-vergelijking hierboven geldt hetzelfde.</p>
+<p>Voor de differentievergelijking hierboven geldt hetzelfde.</p>
 <p>Een voorbeeld van een tijd-invariant systeem is één waarbij <span
 class="math inline">\(n\)</span> binnen de haakjes blijft:</p>
 <p><span class="math display">\[y[n] = 1/x[n]\]</span></p>
 <p>Of deze, om het subtiele verschil duidelijk te maken:</p>
 <p><span class="math display">\[y[n] = \sin( x[n] )\]</span></p>
 <h2 id="lineariteit">Lineariteit</h2>
-<p>Een lineair systeem bevan geen exponenten, ofterwel als de input 10
+<p>Een lineair systeem bevat geen exponenten, oftewel als de input 10
 <span class="math inline">\(\times\)</span> harder is, is de output ook
 10 <span class="math inline">\(\times\)</span> harder.</p>
 <p>Bekijk de volgende systemen eens:</p>
@@ -120,21 +120,20 @@ systeem.</p>
 systeem.</p>
 <p>In het laatste voorbeeld is te zien dat veel functies ook niet
 lineair reageren op een verschil in de input. De <span
-class="math inline">\(\tanh\)</span> functie zal bijvoorbeeld geen ouput
-geven groter dan 1.</p>
+class="math inline">\(\tanh\)</span> functie zal bijvoorbeeld geen
+output geven groter dan 1.</p>
 <p>Een ander soort niet lineariteit kan ontstaan door een constante:</p>
 <p><span class="math display">\[y[n] = x[n] + 5\]</span></p>
 <p>Als we dit systeem gebruiken en als input 4 nemen (<span
 class="math inline">\(x[n]_1 = 4\)</span>), dat geeft:</p>
 <p><span class="math display">\[y[n]_1 = 4+5 = 9\]</span></p>
-<p>En we verdubbellen de input:</p>
+<p>En we verdubbelen de input:</p>
 <p><span class="math display">\[x[n]_2 = 2 * 4 = 8 \]</span></p>
 <p>Dan is de output:</p>
 <p><span class="math display">\[y[n]_2 = 8 + 5 = 13\]</span></p>
 <p><span class="math display">\[13 \neq 2 \times 9 \Rightarrow y[n]_2
 \neq 2 \times y[n]_1\]</span></p>
-<p>Ofterwel, als de input verdubbelt, zal de output niet
-verdubbellen.</p>
+<p>Oftewel, als de input verdubbelt, zal de output niet verdubbelen.</p>
 <p>Als laatste nog een voorbeeld van een werkelijk lineair systeem:
 <span class="math display">\[y[n] = 2x[n] + 3x[n-1]\]</span></p>
 <p>Hierbij zullen alle mogelijke inputs lineair gerelateerd zijn aan de
