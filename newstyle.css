@@ -304,6 +304,12 @@ a:hover {
     align-items:center;
 }
 
+#newbody img {
+    /* border-radius: 20px; */
+    /* border-style: dashed;
+    border-width: 4px; */
+}
+
 .next {
     border: 0.2rem solid;
     padding: 10px;
