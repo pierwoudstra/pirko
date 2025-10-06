@@ -1,0 +1,17 @@
+		<div id="heart"><a href="">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;audio <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;recursion&nbsp;&nbsp;&nbsp;acoustics <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;mathematics&nbsp;electronics <br>
+			&nbsp;&nbsp;free-jazz&nbsp;&nbsp;balkans&nbsp;&nbsp;physics <br>
+			&nbsp;&nbsp;traditional&nbsp;&nbsp;permacomputing <br>
+			&nbsp;&nbsp;cybernetics&nbsp;&nbsp;soundcloud-rap <br>
+			&nbsp;&nbsp;&nbsp;language&nbsp;&nbsp;&nbsp;<span style="color: blue;"><strong>projects</strong></span>&nbsp;loops <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;soldering&nbsp;&nbsp;&nbsp;&nbsp;hyperpop <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;circuit bending <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;programming <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bad music <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web-dev <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c++ <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;! <br>
+		</a>
+		</div>
