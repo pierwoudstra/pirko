@@ -17,7 +17,7 @@ function make_softclipper() {
 }
 
 slider.oninput = function () {
-    del_time = 0.00909 + 0.1*(this.value * 0.00909);
+    del_time = 0.00909 + (this.value * 0.00909);
     if (delay) {
         delay.delayTime.setValueAtTime(del_time, audio_context.currentTime);
     }

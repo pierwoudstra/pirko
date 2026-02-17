@@ -119,9 +119,13 @@ span.warning {
 }
 
 #slide {
-	display: none;
-	visibility: hidden;
-	width: 300px;
+	grid-column: 4;
+	grid-row: 7;
+	/* text-shadow: 0px 0px 15px rgb(0, 255, 0); */
+	text-align: left;
+	/* display:none; */
+	/* visibility: hidden; */
+	/* width: 300px; */
 }
 
 /* ----- */
