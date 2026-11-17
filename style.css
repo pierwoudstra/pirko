@@ -61,7 +61,7 @@ span.warning {
 	/* margin: 0 !important;
 	padding: 0 !important; */
 
-	background-image: url("feedbackisbeautiful.webp");
+	background-image: url("feedbackisbeautiful2.webp");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -144,6 +144,18 @@ span.warning {
 	grid-row: 3;
 	text-align: center;
 
+}
+
+#commissioned img {
+	position: absolute;
+	right: 35.3%;
+	top: -5%;
+	width: 20%;
+	height: 40%;
+}
+
+#commissioned img:hover {
+	filter: drop-shadow(0 0 1.5rem rgb(0, 255, 0));
 }
 
 #bokdida {
@@ -263,7 +275,19 @@ span.gius {
 		grid-column: 1;
 		grid-row: auto;
 		text-align: center;
-	
+	}
+
+	#commissioned {
+		grid-column: 1;
+		grid-row: auto;
+		text-align: center;
+	}
+
+	#commissioned img {
+		position: static;
+		width: 90%;
+		height: auto;
+		margin-top: 0;
 	}
 
 	#bokdida {
